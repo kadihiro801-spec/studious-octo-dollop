@@ -1,0 +1,1 @@
+import telebot; bot = telebot.TeleBot('8653852389:AAEv2Q3tESRHOocbMiTAYZq4bV1x34ckyHI'); @bot.message_handler(commands=['start']); def send(m): bot.reply_to(m, 'تم الربط بنجاح يا مدير! 🚀'); print('--- [SUCCESS] TDZ IS LIVE ---'); bot.infinity_polling()
